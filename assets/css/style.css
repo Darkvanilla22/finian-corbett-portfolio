@@ -1,5 +1,7 @@
 :root {
     --light-color: #ffff;
+    --container-color-aqua: #00d9c6;
+    --container-color-earth: #99d774;
 }
 
 * {
@@ -15,16 +17,15 @@ body {
 }
 
 h1{
-    display: inline-block;
-    font-size: 48px;
+    font-size: 36px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
 }
 
 nav {
     padding-top: 15px;
     margin-right: 20px;
-    float: right;
-    font-size: 24px;
+    text-align: right;
+    font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -41,12 +42,46 @@ nav ul li {
 
 .main-picture {
     height: 400px;
-    width: 100%;
+    max-width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/SkyrimBackground.jpg");
     background-size: cover;
     background-position: center;
     box-shadow: 0 5px 10px #868686;
+}
+
+.content {
+    width: 90%;
+    display: inline-block;
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    font-size: 16px;
+}
+
+.About-Me {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--container-color-aqua);
+}
+
+.Work {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 600px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--container-color-earth);
+}
+
+.Contact-Me {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--container-color-aqua);
+    color: var(--light-color);
 }
 
 @media screen {
