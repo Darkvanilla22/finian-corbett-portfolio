@@ -28,6 +28,11 @@ h2 {
     margin-bottom: 15px;
 }
 
+p {
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 nav {
     margin-right: 20px;
     text-align: right;
@@ -82,17 +87,21 @@ nav ul li {
 }
 
 .Main-Work-Container {
-    display: flex;
-    flex-wrap: wrap;
-    width: 30%;
+    width: 40%;
     margin: 0 auto;
     margin-bottom: 100px;
     overflow: hidden;
     position: relative;
+    border-radius: 15px;
 }
 
 .Main-Work-Container img {
     width: 100%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.Main-Work-Container:hover img {
+    transform: scale(1.1);
 }
 
 .Mini-Work {
@@ -103,19 +112,39 @@ nav ul li {
 
 .Mini-Work-Container {
     width: 30%;
-    margin-bottom: 20px;
-    border-radius: 5px;
+    margin-bottom: 50px;
+    border-radius: 10px;
     overflow: hidden;
     position: relative;
 }
 
 .Mini-Work-Container img {
     width: 100%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.Mini-Work-Container:hover img {
+    transform: scale(1.1);
+}
+
+.Work-Title {
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    width: 50%;
+    height: 9%;
+    background-color: var(--container-color-earth);
+    padding: 5px;
+    text-align: center;
+    pointer-events: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .Contact-Me {
+    text-align: center;
     padding: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: var(--container-color-aqua);
     color: var(--light-color);
+    box-shadow: inset 0px 10px 10px -10px rgba(0, 0, 0, 0.5);
 }
