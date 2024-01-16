@@ -4,6 +4,8 @@
 
 This repository contains a simple and responsive web portfolio template designed to showcase a Finian's information, work, and contact details. The template features various sections, including the Finian's profile, work samples, and a contact section.
 
+Deployed App Link: https://darkvanilla22.github.io/finian-corbett-portfolio/
+
 ## Features
 - ### Responsive Layout: The template is designed to be visually appealing and functional across various devices and screen sizes.
 - ### Interactive Work Samples: Work samples are presented in boxes that scale images on hover, adding an interactive element to showcase projects effectively.
