@@ -14,5 +14,5 @@ Deployed App Link: https://darkvanilla22.github.io/finian-corbett-portfolio/
 ## Installation
 Clone the repository
 ```
-git clone https://github.com/DarkBitBeard/DarkBitBeardPortfolio.git
+git clone https://github.com/Darkvanilla22/finian-corbett-portfolio
 ```
